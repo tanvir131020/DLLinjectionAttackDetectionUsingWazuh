@@ -1,12 +1,15 @@
-🚀 A hands-on project for Wazuh SIEM log analysis.
-
+🚀 Automated SOC Components Setup Script
+---
 
 Total Splunk Structure
 
 ![Image Description](Images/Screen_shot_from_2026_06_17_21_41_46.png)
 
-🛠️ Wazuh Setup
+:link: System Requirements
 
+
+
+🛠️ Wazuh Setup
 
 1️⃣. Wazuh Server Installation Process :
 
@@ -17,5 +20,5 @@ https://github.com/samiul008ghub/soc_setup/?tab=readme-ov-file
 followed everything according to the description written in the README section. 
 
 
-:link: System Requirements
+
 
