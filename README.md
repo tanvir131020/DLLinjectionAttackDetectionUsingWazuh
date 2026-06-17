@@ -5,3 +5,13 @@ Total Splunk Structure
 
 ![Image Description](Images/Screen_shot_from_2026_06_17_21_41_46.png)
 
+🛠️ Wazuh Setup
+
+
+1️⃣. Wazuh Server Installation Process :
+
+a)​ First, I went to the GitHub link 
+```bash
+https://github.com/samiul008ghub/soc_setup/?tab=readme-ov-file
+```
+
