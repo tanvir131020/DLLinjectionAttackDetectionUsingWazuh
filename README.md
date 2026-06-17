@@ -1,17 +1,14 @@
 🚀 Automated SOC Components Setup Script
----
 
+---
 
 :link: Overview
 
-
 ---
-
 
 Total Splunk Structure
 
 ![Image Description](Images/Screen_shot_from_2026_06_17_21_41_46.png)
-
 
 ---
 
