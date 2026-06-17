@@ -14,7 +14,6 @@ Total Wazuh Structure
 :link: System Requirements
 
 
-
 🛠️ Wazuh Setup
 
 1️⃣. Wazuh Server Installation Process :
