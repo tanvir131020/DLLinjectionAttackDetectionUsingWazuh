@@ -14,4 +14,8 @@ a)​ First, I went to the GitHub link
 ```bash
 https://github.com/samiul008ghub/soc_setup/?tab=readme-ov-file
 ```
+followed everything according to the description written in the README section. 
+
+
+:link: System Requirements
 
