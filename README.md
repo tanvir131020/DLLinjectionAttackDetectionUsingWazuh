@@ -95,7 +95,7 @@ chmod +x setup_script.sh
 Verify NIDS Logs:
 ---
 
-Check if logs are getting written to the /var/log/suricata/eve.json file. This is essential for monitoring network traffic. Besides, you need to check from kibana if data is being displayed in Suricata Dashboard.
+Check if logs are getting written to the /var/log/suricata/eve.json file. This is essential for monitoring network traffic. Besides, you need to check from kibana if data is being displayed in the Suricata Dashboard.
 
 
 ---
@@ -110,7 +110,7 @@ To complete the setup and ensure effective security monitoring, install Wazuh ag
 Warnings and Considerations
 ---
 
-Data Backup: Before proceeding, it's advisable to backup your data, especially if you plan to run the script on a production system.
+Data Backup: Before proceeding, it's advisable to back up your data, especially if you plan to run the script on a production system.
 
 ---
 Security Best Practices
@@ -132,7 +132,7 @@ Time of Processing the Wazuh Server in terminal ......
 
 ![Image Description](Images/Screenshot_from_2026-06-17_23-09-56.png)
 
-Here, I attempted to install suricata by typing y in terminal
+Here, I attempted to install suricata by typing y in the terminal
 
 ![Image Description](Images/Screenshot_from_2026-06-17_23-23-33.png)
 
@@ -140,7 +140,7 @@ Here, I typed password for kibana, kibana system, elastic, logstash_system, remo
 
 ![Image Description](Images/Screenshot_from_2026-06-17_23-09-01.png)
 
-This is the completeness of installation of Wazuh Server in the terminal of Ubuntu 22.04
+This is the complete installation of Wazuh Server in the terminal of Ubuntu 22.04
 
 ![Image Description](Images/Screenshot_from_2026-06-17_23-50-54.png)
 
@@ -160,7 +160,7 @@ You have to do this according to your IP address & port will be 5601
 2️⃣. Wazuh Agent Installation Process :
 ---
 
-a) First, I went to the "Deploy new agent" according to the below screenshot 
+a) First, I went to the "Deploy new agent" according to the screenshot below 
 
 ![Image Description](Images/Screenshot_from_2026-06-18_22-07-55.png)
 
@@ -176,7 +176,7 @@ d) Here is the command of the Wazuh agent from the Wazuh server. I copied the co
 
 ![Image Description](Images/Screenshot_from_2026-06-18_00-56-59.png)
 
-e) In my Windows 10 machine, I opened the PowerShell as administrator & copied the command that I got from the Wazuh server
+e) In my Windows 10 machine, I opened PowerShell as administrator & copied the command that I got from the Wazuh server
 
 ![Image Description](Images/Screenshot_from_2026-06-18_00-58-17.png)
 
@@ -253,6 +253,30 @@ Then I restart the Wazuh Agent
 restart wazuh agent
 ```
 
+If you need to restart Elastic Search, Kibana, Filebeat, and Suricata
+
+![Image Description](Images/Screenshot_from_2026-06-18_01-01-26.png)
+
+```bash
+sudo systemctl restart suricata
+```
+
+```bash
+sudo systemctl restart filebeat
+```
+
+```bash
+sudo systemctl restart elasticsearch
+```
+
+```bash
+sudo systemctl restart kibana
+```
+
+If you want to see the status of Elastic Search, Kibana, Filebeat, and Suricata
+
+![Image Description](Images/Screenshot_from_2026-06-18_01-03-28.png)
+
 
 ---
 4️⃣. Detecting Alerts in the network system by Suricata:
@@ -294,7 +318,7 @@ alert http $HOME_NET any -> any any (msg:"BANK LAB Test - Possible Data Upload A
 
 ```
 
-d) Then, I checked if there were any errors in the rules that I wrote locally.rules
+d) Then, I checked if there were any errors in the rules that I wrote local.rules
 
 ```bash
 suricata -T -c /etc/suricata/suricata.yaml
@@ -319,6 +343,20 @@ grep -A 10 "rule-files" /etc/suricata/suricata.yaml
 ![Image Description](Images/photo_2026-06-18_20-43-23.jpg)
 
 ![Image Description](Images/photo_2026-06-18_20-43-25.jpg)
+
+These are the screenshots of suricata
+
+---
+5️⃣Integrity monitoring in Wazuh
+---
+
+
+
+
+![Image Description]
+
+
+![Image Description]
 
 
 
