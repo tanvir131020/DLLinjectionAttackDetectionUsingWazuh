@@ -53,6 +53,9 @@ The script facilitates the installation of the following SOC components:
 
 ---
 🛠️ Wazuh Setup
+---
+
+
 
 ---
 1️⃣. Wazuh Server Installation Process :
