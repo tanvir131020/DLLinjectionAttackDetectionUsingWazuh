@@ -257,15 +257,28 @@ Then, I typed the above thing in the Log analysis section of ossec.conf
 4️⃣. Detecting Alerts in network system by Suricata:
 ---
 
-a) first 
+a) At first,  
 
 ![Image Description](Images/Screenshot_from_2026-06-18_23-51-22.png)
 
+Here it is the location of suricata rules
+
+```bash
+cd /var/lib/suricata
+```
 
 ![Image Description](Images/Screenshot_from_2026-06-18_23-52-03.png)
 
-
+I type the alert rules by using nano in local.rules
 ![Image Description](Images/Screenshot_from_2026-06-18_23-52-48.png)
+
+```bash
+
+alert dns $HOME_NET any -> any any (msg:"YouTube Test Alert"; dns.query; content:"youtube.com"; nocase; classtype:policy-violation; sid:1000001; rev:1; metadata:created_at 2026_06_09, deployment Perimeter, confidence Low, signature_severity Minor, tag Test;)
+
+alert http $HOME_NET any -> any any (msg:"BANK LAB Test - Possible Data Upload Activity"; http.uri; content:"upload"; nocase; classtype:policy-violation; sid:1000103; rev:1; metadata:banking_lab exfil_simulation;)
+
+```
 
 
 
