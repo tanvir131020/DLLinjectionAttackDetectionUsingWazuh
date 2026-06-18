@@ -126,18 +126,19 @@ After setting up the security components, consider following best practices for 
 
 ---
 
-The starting process of the Wazuh server
+The starting process of the Wazuh Server
 
 ![Image Description](Images/Screenshot_from_2026-06-17_22-56-00.png)
 
-Here, I typed the password for my Wazuh server 
+Here, I typed the password for my Wazuh Server 
 
 ![Image Description](Images/Screenshot_from_2026-06-17_23-09-01.png)
 
+Time of Processing the Wazuh Server in terminal ......
 
 ![Image Description](Images/Screenshot_from_2026-06-17_23-09-56.png)
 
-Here, I attempted to install suricata by typing y 
+Here, I attempted to install suricata by typing y in terminal
 
 ![Image Description](Images/Screenshot_from_2026-06-17_23-23-33.png)
 
