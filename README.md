@@ -463,6 +463,22 @@ Here is the rule that I wrote in the terminal
 </group>
 
 ```
+I installed hello-world-x64.dll & InjectProc.exe in my Wazuh Agent(Windows 10) 
+
+I opened CMD as administrator & went to the specific location where I installed hello-world-x64.dll & InjectProc.exe
+```bash
+cd C:\Users\tanvir13\Desktop\DLL
+```
+& I ran
+
+```bash
+InjectProc.exe dll_inj hello-world-x64.dll cmd.exe
+```
+& restart the Wazuh Agent
+
+```bash
+Restart-Service -Name wazuh
+```
 
 ![Image Description](Images/Screenshot_from_2026-06-18_13-55-56.png)
 
@@ -473,6 +489,7 @@ Here is the rule that I wrote in the terminal
 ![Image Description](Images/Screenshot_from_2026-06-18_14-00-45.png)
 
 
+see the source image, target image, SourceProcessGuid, TargetProcessGuid,
 ![Image Description](Images/Screenshot_from_2026-06-18_14-07-35.png)
 
 
