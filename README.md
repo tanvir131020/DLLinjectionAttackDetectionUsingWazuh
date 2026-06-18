@@ -136,6 +136,38 @@ After setting up the security components, consider following best practices for 
 
 These are the screenshots of installation of Wazuh setup in Ubuntu 22.04
 
+Then I went to the browser
+
+![Image Description](Images/Screenshot_from_2026-06-18_21-36-37.png)
+
+---
+2️⃣. Wazuh Agent Installation Process :
+---
+
+a) First I went  
+
+Images/Screenshot_from_2026-06-18_00-58-17.png(Images/Screenshot_from_2026-06-18_00-52-42.png)
+
+![Image Description](Images/Screenshot_from_2026-06-18_00-52-59.png)
+
+![Image Description](Images/Screenshot_from_2026-06-18_00-56-59.png)
+
+b)
+
+![Image Description](Images/Screenshot_from_2026-06-18_00-58-17.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
