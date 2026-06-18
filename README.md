@@ -206,6 +206,12 @@ To see the status of Kibana
 sudo systemctl status kibana
 ```
 
+To restart Wazuh-manager
+
+```bash
+systemctl restart wazuh-manager
+```
+
 
 ---
 2️⃣. Wazuh Agent Installation Process :
