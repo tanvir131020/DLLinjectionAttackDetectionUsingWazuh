@@ -36,7 +36,6 @@ followed everything according to the description written in the README section.
 
 ## Usage
 ---
-
 1. Clone this repository to your local machine:
 
 ```bash
