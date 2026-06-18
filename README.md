@@ -257,18 +257,21 @@ If you need to restart Elastic Search, Kibana, Filebeat, and Suricata
 
 ![Image Description](Images/Screenshot_from_2026-06-18_01-01-26.png)
 
+To restart Suricata
 ```bash
 sudo systemctl restart suricata
 ```
 
+To restart Filebeat
 ```bash
 sudo systemctl restart filebeat
 ```
 
+To restart ElasticSearch
 ```bash
 sudo systemctl restart elasticsearch
 ```
-
+To restart Kibana
 ```bash
 sudo systemctl restart kibana
 ```
