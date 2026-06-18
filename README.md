@@ -431,7 +431,13 @@ I turned off the security system of the Wazuh client (Windows 10)
 ![Image Description](Images/Screenshot_from_2026-06-18_13-36-31.png)
 ![Image Description](Images/Screenshot_from_2026-06-18_13-36-41.png)
 
-Here I wrote the rules at the terminal in the Wazuh Server(Ubuntu 22.04)
+I went to the above link
+
+🔗"https://wazuh.com/blog/detecting-process-injection-attacks-with-wazuh/"
+
+From here, I downloaded the tools according to the given instructions
+
+& Then I wrote the rules at the terminal in the Wazuh Server(Ubuntu 22.04) according to the instruction
 
 Here is the position
 ```bash
