@@ -412,11 +412,37 @@ These are the events from the Wazuh Agent(Windows 10) for adding a file(hello.tx
 To check the hash MD5, SHA1, and SHA256
 ![Image Description](Images/Screenshot_from_2026-06-18_01-42-35.png)
 
-To check the status of the hello.txt file because I modified it
+To check the status of the hello.txt file, because I modified it
 ![Image Description](Images/Screenshot_from_2026-06-18_01-42-55.png)
 
 
 To check the MD5 hash of the hello.txt file before & after modification
 ![Image Description](Images/Screenshot_from_2026-06-18_01-43-24.png)
+
+
+
+---
+6️⃣. Detecting process injection attacks with Wazuh
+---
+
+a) Technique 1: DLL injection T1055.001
+
+I turned off the security system of the Wazuh client (Windows 10)
+![Image Description](Images/Screenshot_from_2026-06-18_13-36-31.png)
+![Image Description](Images/Screenshot_from_2026-06-18_13-36-41.png)
+
+
+![Image Description](Images/Screenshot_from_2026-06-19_02-30-26.png)
+
+![Image Description](Images/Screenshot_from_2026-06-18_14-02-35.png)
+
+![Image Description]()
+
+
+![Image Description]()
+
+
+![Image Description]()
+
 
 
