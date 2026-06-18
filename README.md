@@ -203,6 +203,11 @@ I downloaded the Sysmon from the link & extracted it
 
 🔗 “https://github.com/olafhartong/sysmon-modular/blob/master/sysmonconfig.xml”
 
+
+Here it is the position of all of the sysmon component
+
+![Image Description](Images/Screenshot_from_2026-06-18_00-32-47.png)
+
 I installed it with the
 
 ```bash
@@ -213,9 +218,10 @@ command & checked the sysmon with the command
 ```bash
 Get-Service -Name Sysmon64
 ```
-![Image Description](Images/Screenshot_from_2026-06-18_00-32-47.png)
 
 ![Image Description](Images/Screenshot_from_2026-06-18_00-32-27.png)
+
+Here,I also checked sysmon in the Event Viwer
 
 ![Image Description](Images/Screenshot_from_2026-06-18_00-33-50.png)
 
