@@ -193,6 +193,31 @@ Get-Service -Name "Wazuh"
 ```
 
 
+3️⃣. Sysmon Installation Process in Windows 10:
+
+I downloaded the Sysmon from the link & extracted it
+
+🔗 “https://learn.microsoft.com/en-us/sysinternals/downloads/sysmon”
+
+& sysmonconfig.xml file from the link, & placed it into the extracted Sysmon folder
+
+🔗 “https://github.com/olafhartong/sysmon-modular/blob/master/sysmonconfig.xml”
+
+I installed it with the
+
+```bash
+.\Sysmon64.exe -i .\sysmonconfig.xml
+```
+command & checked the sysmon with the command
+
+```bash
+Get-Service -Name Sysmon64
+```
+![Image Description](Images/Screenshot_from_2026-06-18_00-32-47.png)
+
+![Image Description](Images/Screenshot_from_2026-06-18_00-32-27.png)
+
+![Image Description](Images/Screenshot_from_2026-06-18_00-33-50.png)
 
 
 
