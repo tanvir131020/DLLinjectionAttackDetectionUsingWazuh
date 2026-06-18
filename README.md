@@ -146,7 +146,7 @@ Then I went to the browser
 
 a) First I went  
 
-Images/Screenshot_from_2026-06-18_00-58-17.png(Images/Screenshot_from_2026-06-18_00-52-42.png)
+![Image Description](Images/Screenshot_from_2026-06-18_00-52-42.png)
 
 ![Image Description](Images/Screenshot_from_2026-06-18_00-52-59.png)
 
