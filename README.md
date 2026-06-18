@@ -464,18 +464,17 @@ Here is the rule that I wrote in the terminal
 
 ```
 
+![Image Description](Images/Screenshot_from_2026-06-18_13-55-56.png)
 
 ![Image Description](Images/Screenshot_from_2026-06-19_02-30-26.png)
 
 ![Image Description](Images/Screenshot_from_2026-06-18_14-02-35.png)
 
-![Image Description]()
+![Image Description](Images/Screenshot_from_2026-06-18_14-00-45.png)
 
 
-![Image Description]()
+![Image Description](Images/Screenshot_from_2026-06-18_14-07-35.png)
 
-
-![Image Description]()
 
 
 
