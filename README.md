@@ -238,8 +238,11 @@ Here,I also checked sysmon in the Event Viwer
 
 ![Image Description](Images/Screenshot_from_2026-06-18_00-33-50.png)
 
+Here, I went to the ossec.conf file
 
 ![Image Description](Images/Screenshot_from_2026-06-18_02-10-27.png)
+
+Then, I typed the above thing in the "<!-- Log analysis -->" in ossec.conf
 
 ![Image Description](Images/Screenshot_from_2026-06-18_23-12-49.png)
 
