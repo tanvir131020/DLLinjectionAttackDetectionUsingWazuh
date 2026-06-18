@@ -49,6 +49,8 @@ The script facilitates the installation of the following SOC components:
 
 3. HIDS (Host-based Intrusion Detection System): The script installs the Wazuh Manager, an open-source HIDS. It aids in monitoring, detecting, and responding to security threats on individual hosts. The setup includes the installation of Wazuh Manager version 4.5
 
+![Image Description](Images/Screenshot_from_2026-06-18_20-59-14.png)
+
 ---
 🛠️ Wazuh Setup
 ---
