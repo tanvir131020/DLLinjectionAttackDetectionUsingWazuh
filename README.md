@@ -486,9 +486,10 @@ Restart-Service -Name wazuh
 
 ![Image Description](Images/Screenshot_from_2026-06-18_13-55-56.png)
 
-
+I found the rule.id 100200 was triggered in the event 
 ![Image Description](Images/Screenshot_from_2026-06-18_14-02-35.png)
 
+& Dashboard
 ![Image Description](Images/Screenshot_from_2026-06-18_14-00-45.png)
 
 
