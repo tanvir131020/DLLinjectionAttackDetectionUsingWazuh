@@ -142,6 +142,10 @@ Here, I attempted to install suricata by typing y in terminal
 
 ![Image Description](Images/Screenshot_from_2026-06-17_23-23-33.png)
 
+Here,I typed password for kibana, kibana system, elastic, logstash_system, remote_monitoring_system, apm_system, beat_system  
+
+![Image Description](Images/Screenshot_from_2026-06-17_23-09-01.png)
+
 This is the completeness of installation of Wazuh Server in terminal of Ubuntu 22.04
 
 ![Image Description](Images/Screenshot_from_2026-06-17_23-50-54.png)
@@ -235,7 +239,13 @@ Here,I also checked sysmon in the Event Viwer
 ![Image Description](Images/Screenshot_from_2026-06-18_00-33-50.png)
 
 
+![Image Description](Images/Screenshot_from_2026-06-18_02-10-27.png)
 
+![Image Description]()
+
+
+
+4️⃣.
 
 
 
