@@ -5,8 +5,28 @@ Overview
 
 ---
 
-Total Wazuh Structure
+This script automates the setup of a comprehensive security monitoring environment, including a Security Information and Event Management (SIEM) system,Network-based Intrusion Detection System (NIDS) and Host-based Intrusion Detection System (HIDS) on a single machine. It streamlines the installation process, making it accessible to users with different levels of technical expertise.
 
+Note: This script is intended to install all the components on a single machine, meaning the same box will have the SIEM, NIDS, and HIDS core components.
+
+---
+Components
+---
+The script facilitates the installation of the following SOC components:
+
+
+1. SIEM (Security Information and Event Management): This component combines Elasticsearch, Kibana, and Filebeat to provide a powerful platform for monitoring and analyzing security events in your environment. The SIEM setup includes Elasticsearch, Kibana and Filebeat version 7.17.13 as it is the compatible version to integrate with Wazuh manager version 4.5
+
+
+2. NIDS (Network-based Intrusion Detection System): Suricata, a high-performance NIDS, is configured to help protect your network from intrusions and suspicious activities. Note: Suricata will monitor the local interface of the machine where it is installed. To monitor the entire network traffic, it should receive traffic from a TAP device or a SPAN port.
+
+
+3. HIDS (Host-based Intrusion Detection System): The script installs the Wazuh Manager, an open-source HIDS. It aids in monitoring, detecting, and responding to security threats on individual hosts. The setup includes the installation of Wazuh Manager version 4.5
+
+---
+
+Total Wazuh Structure
+---
 ![Image Description](Images/Screen_shot_from_2026_06_17_21_41_46.png)
 ---
 
