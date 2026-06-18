@@ -204,9 +204,11 @@ Then I check the status of the Wazuh Agent
 ```bash
 Get-Service -Name "Wazuh"
 ```
-
+---
 
 3️⃣. Sysmon Installation Process in Windows 10:
+
+---
 
 I downloaded the Sysmon from the link & extracted it
 
@@ -253,9 +255,12 @@ Then, I typed the above thing in the Log analysis section of ossec.conf
 </localfile>
 
 ```
+---
 
+4️⃣. Detecting Alerts in network system by Suricata
 
-4️⃣.
+---
+
 
 
 
