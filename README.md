@@ -463,6 +463,10 @@ Here is the rule that I wrote in the terminal
 </group>
 
 ```
+
+![Image Description](Images/Screenshot_from_2026-06-19_02-30-26.png)
+
+
 I installed hello-world-x64.dll & InjectProc.exe in my Wazuh Agent(Windows 10) 
 
 I opened CMD as administrator & went to the specific location where I installed hello-world-x64.dll & InjectProc.exe
@@ -482,7 +486,6 @@ Restart-Service -Name wazuh
 
 ![Image Description](Images/Screenshot_from_2026-06-18_13-55-56.png)
 
-![Image Description](Images/Screenshot_from_2026-06-19_02-30-26.png)
 
 ![Image Description](Images/Screenshot_from_2026-06-18_14-02-35.png)
 
