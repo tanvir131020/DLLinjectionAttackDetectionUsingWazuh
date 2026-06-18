@@ -136,7 +136,7 @@ After setting up the security components, consider following best practices for 
 
 These are the screenshots of installation of Wazuh setup in Ubuntu 22.04
 
-Then I went to the browser & I typed 
+Then I went to the browser & typed 
 
 ```bash
 https://192.168.159.153:5601
@@ -149,7 +149,9 @@ you have to do this according to your IP address & port will be 5601
 2️⃣. Wazuh Agent Installation Process :
 ---
 
-a) First I went  
+a) First I went to the
+
+![Image Description](Images/Screenshot_from_2026-06-18_22-07-55.png)
 
 ![Image Description](Images/Screenshot_from_2026-06-18_00-52-42.png)
 
