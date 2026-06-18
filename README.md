@@ -492,9 +492,11 @@ I found the rule.id 100200 was triggered in the event
 & Dashboard
 ![Image Description](Images/Screenshot_from_2026-06-18_14-00-45.png)
 
-
-see the source image, target image, SourceProcessGuid, TargetProcessGuid,
+always see the source image, target image, SourceProcessGuid, TargetProcessGuid,
 ![Image Description](Images/Screenshot_from_2026-06-18_14-07-35.png)
+
+& sysmon eventID, techniqueID & name
+![Image Description](Images/Screenshot_from_2026-06-19_03-32-40.png)
 
 I checked the full log 
 ![Image Description](Images/photo_2026-06-18_14-16-29.jpg)
