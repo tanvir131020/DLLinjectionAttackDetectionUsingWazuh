@@ -241,8 +241,15 @@ Here,I also checked sysmon in the Event Viwer
 
 ![Image Description](Images/Screenshot_from_2026-06-18_02-10-27.png)
 
-![Image Description]()
+![Image Description](Images/Screenshot_from_2026-06-18_23-12-49.png)
 
+```bash
+<localfile>
+    <location>Microsoft-Windows-Sysmon/Operational</location>
+    <log_format>eventchannel</log_format>
+</localfile>
+
+```
 
 
 4️⃣.
