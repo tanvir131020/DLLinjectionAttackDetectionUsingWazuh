@@ -204,7 +204,7 @@ I downloaded the Sysmon from the link & extracted it
 🔗 “https://github.com/olafhartong/sysmon-modular/blob/master/sysmonconfig.xml”
 
 
-Here it is the position of all of the sysmon component
+Here it is the position of all of the sysmon component in my Windows 10
 
 ![Image Description](Images/Screenshot_from_2026-06-18_00-32-47.png)
 
