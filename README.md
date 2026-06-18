@@ -156,48 +156,6 @@ You have to do this according to your IP address & port will be 5601
 
 ![Image Description](Images/Screenshot_from_2026-06-18_21-36-37.png)
 
----
-2️⃣. Wazuh Agent Installation Process :
----
-
-a) First, I went to the "Deploy new agent" according to the screenshot below 
-
-![Image Description](Images/Screenshot_from_2026-06-18_22-07-55.png)
-
-b) Then I choose the operating system, version, and architecture 
-
-![Image Description](Images/Screenshot_from_2026-06-18_00-52-42.png)
-
-c) In the Wazuh Server address, I typed my IP address of Ubuntu 22.04, assigned the agent name as tanvir13, & select default in the group
-
-![Image Description](Images/Screenshot_from_2026-06-18_00-52-59.png)
-
-d) Here is the command of the Wazuh agent from the Wazuh server. I copied the command 
-
-![Image Description](Images/Screenshot_from_2026-06-18_00-56-59.png)
-
-e) In my Windows 10 machine, I opened PowerShell as administrator & copied the command that I got from the Wazuh server
-
-![Image Description](Images/Screenshot_from_2026-06-18_00-58-17.png)
-
-Here I typed the command in PowerShell that I found on the Wazuh server. 
-
-```bash
-
-Invoke-WebRequest -Uri https://packages.wazuh.com/4.x/windows/wazuh-agent-4.5.4-1.msi -OutFile ${env:tmp}\wazuh-agent.msi; msiexec.exe /i ${env:tmp}\wazuh-agent.msi /q WAZUH_MANAGER='192.168.159.149' WAZUH_REGISTRATION_SERVER='192.168.159.149' WAZUH_AGENT_GROUP='default' WAZUH_AGENT_NAME='tanvir13' 
-
-```
-
-Then I started the Wazuh agent 
-
-```bash
-NET START Wazuh
-```
-
-Then I check the status of the Wazuh Agent
-```bash
-Get-Service -Name "Wazuh"
-```
 
 If you need to restart Elastic Search, Kibana, Filebeat, and Suricata
 
@@ -246,6 +204,50 @@ To see the status of Kibana
 
 ```bah
 sudo systemctl status kibana
+```
+
+
+---
+2️⃣. Wazuh Agent Installation Process :
+---
+
+a) First, I went to the "Deploy new agent" according to the screenshot below 
+
+![Image Description](Images/Screenshot_from_2026-06-18_22-07-55.png)
+
+b) Then I choose the operating system, version, and architecture 
+
+![Image Description](Images/Screenshot_from_2026-06-18_00-52-42.png)
+
+c) In the Wazuh Server address, I typed my IP address of Ubuntu 22.04, assigned the agent name as tanvir13, & select default in the group
+
+![Image Description](Images/Screenshot_from_2026-06-18_00-52-59.png)
+
+d) Here is the command of the Wazuh agent from the Wazuh server. I copied the command 
+
+![Image Description](Images/Screenshot_from_2026-06-18_00-56-59.png)
+
+e) In my Windows 10 machine, I opened PowerShell as administrator & copied the command that I got from the Wazuh server
+
+![Image Description](Images/Screenshot_from_2026-06-18_00-58-17.png)
+
+Here I typed the command in PowerShell that I found on the Wazuh server. 
+
+```bash
+
+Invoke-WebRequest -Uri https://packages.wazuh.com/4.x/windows/wazuh-agent-4.5.4-1.msi -OutFile ${env:tmp}\wazuh-agent.msi; msiexec.exe /i ${env:tmp}\wazuh-agent.msi /q WAZUH_MANAGER='192.168.159.149' WAZUH_REGISTRATION_SERVER='192.168.159.149' WAZUH_AGENT_GROUP='default' WAZUH_AGENT_NAME='tanvir13' 
+
+```
+
+Then I started the Wazuh agent 
+
+```bash
+NET START Wazuh
+```
+
+Then I check the status of the Wazuh Agent
+```bash
+Get-Service -Name "Wazuh"
 ```
 
 
