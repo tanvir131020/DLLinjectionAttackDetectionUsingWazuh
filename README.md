@@ -264,7 +264,7 @@ Get-Service -Name "Wazuh"
 
 
 ---
-3️⃣. Sysmon Installation Process in Windows 10:
+3️⃣. Sysmon Installation Process in Wazuh Agent(Windows 10):
 ---
 
 I downloaded the Sysmon from the link & extracted it
@@ -391,13 +391,21 @@ These are the screenshots of suricata
 5️⃣Integrity monitoring in Wazuh
 ---
 
+I placed the locations of the files in the File Integrity Monitoring Section in ossec.conf
+![Image Description](Images/Screenshot_from_2026-06-18_02-10-58.png)
+
+![Image Description](Images/Screenshot_from_2026-06-18_01-07-34.png)
 
 
+![Image Description](Images/Screenshot_from_2026-06-18_01-40-47.png)
 
-![Image Description]
 
+![Image Description](Images/Screenshot_from_2026-06-18_01-41-05.png)
 
-![Image Description]
+![Image Description](Images/Screenshot_from_2026-06-18_01-42-35.png)
 
+![Image Description](Images/Screenshot_from_2026-06-18_01-42-55.png)
+
+![Image Description](Images/Screenshot_from_2026-06-18_01-43-24.png)
 
 
