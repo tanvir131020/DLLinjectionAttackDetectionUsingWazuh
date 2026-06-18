@@ -263,7 +263,7 @@ a) At first, I went to the terminal & write it
 cd /etc/suricata
 ```
 
-then, I checked the suricata.yaml & write the above command in terminal
+then, I checked the suricata.yaml & write the above command in terminal to see the suricata.rules
 
 ```bash
 cat suricata.yaml
