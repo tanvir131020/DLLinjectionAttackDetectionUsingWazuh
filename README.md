@@ -431,6 +431,33 @@ I turned off the security system of the Wazuh client (Windows 10)
 ![Image Description](Images/Screenshot_from_2026-06-18_13-36-31.png)
 ![Image Description](Images/Screenshot_from_2026-06-18_13-36-41.png)
 
+Here I wrote the rules at the terminal in the Wazuh Server(Ubuntu 22.04)
+
+Here is the position
+```bash
+cd /var/ossec/etc/rules
+```
+Here is the rule that I wrote in the terminal
+```bash
+
+<group name="windows,sysmon">
+  <rule id="100200" level="12">
+    <if_sid>61610</if_sid>
+    <description>Possible process injection activity detected from "$(win.eventdata.sourceImage)" on "$(win.eventdata.targetImage)"</description>
+    <mitre>
+      <id>T1055.001</id>
+    </mitre>
+  </rule>
+ 
+  <rule id="100100" level="0">
+    <if_sid>100200</if_sid>
+    <field name="win.eventdata.sourceImage" type="pcre2">(C:\\\\Windows\\\\system32)|chrome.exe</field>
+    <description>Ignore Windows binaries and Chrome</description>
+  </rule>
+</group>
+
+```
+
 
 ![Image Description](Images/Screenshot_from_2026-06-19_02-30-26.png)
 
