@@ -179,11 +179,16 @@ Invoke-WebRequest -Uri https://packages.wazuh.com/4.x/windows/wazuh-agent-4.5.4-
 
 ```
 
+Then I started the Wazuh agent 
+
 ```bash
 NET START Wazuh
 ```
 
-
+Then I check the status of the Wazuh Agent
+```bash
+Get-Service -Name "Wazuh"
+```
 
 
 
