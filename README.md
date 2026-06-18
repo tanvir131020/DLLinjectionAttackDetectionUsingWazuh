@@ -424,8 +424,9 @@ To check the MD5 hash of the hello.txt file before & after modification
 ---
 6️⃣. Detecting process injection attacks with Wazuh
 ---
-
+---
 a) Technique 1: DLL injection T1055.001
+---
 
 I turned off the security system of the Wazuh client (Windows 10)
 ![Image Description](Images/Screenshot_from_2026-06-18_13-36-31.png)
