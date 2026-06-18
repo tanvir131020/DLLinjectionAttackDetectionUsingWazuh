@@ -15,7 +15,7 @@ Total Wazuh Structure
 
 Before running the script, please ensure that your system meets the following requirements:
 
-Ubuntu OS
+**OS:** Ubuntu OS
 
 Minimum 4GB of RAM
 
