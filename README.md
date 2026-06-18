@@ -212,6 +212,11 @@ To restart Wazuh-manager
 systemctl restart wazuh-manager
 ```
 
+To see the status of wazuh-manager
+
+```bash
+systemctl status wazuh-manager
+```
 
 ---
 2️⃣. Wazuh Agent Installation Process :
