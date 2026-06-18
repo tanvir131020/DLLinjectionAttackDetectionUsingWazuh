@@ -226,9 +226,27 @@ If you want to see the status of Elastic Search, Kibana, Filebeat, and Suricata
 
 ![Image Description](Images/Screenshot_from_2026-06-18_01-03-28.png)
 
+To see the status of Suricata
+```bash
+sudo systemctl status suricata
+```
 
+To see the status of Filebeat
+```bash
+sudo systemctl status filebeat
+```
 
+To see the status of ElasticSearch
 
+```bash
+sudo systemctl status elasticsearch
+```
+
+To see the status of Kibana
+
+```bah
+sudo systemctl status kibana
+```
 
 
 
