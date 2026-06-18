@@ -1,7 +1,7 @@
 🚀 Automated SOC Components Setup Script
 ---
 
-:link: Overview
+Overview
 
 ---
 
@@ -11,7 +11,7 @@ Total Wazuh Structure
 ---
 
 
-:link: System Requirements
+System Requirements
 
 Before running the script, please ensure that your system meets the following requirements:
 
