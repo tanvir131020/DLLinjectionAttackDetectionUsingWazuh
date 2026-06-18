@@ -9,6 +9,25 @@ This script automates the setup of a comprehensive security monitoring environme
 
 Note: This script is intended to install all the components on a single machine, meaning the same box will have the SIEM, NIDS, and HIDS core components.
 
+Total Wazuh Structure
+---
+![Image Description](Images/Screen_shot_from_2026_06_17_21_41_46.png)
+---
+
+
+System Requirements
+
+Before running the script, please ensure that your system meets the following requirements:
+
+* Ubuntu OS
+
+* Minimum 4GB of RAM
+
+* Minimum 20GB of free disk space
+
+If your system doesn't meet these requirements, the script will issue a warning and allow you to proceed at your own risk.
+
+
 ---
 Components
 ---
@@ -31,24 +50,6 @@ The script facilitates the installation of the following SOC components:
 3. HIDS (Host-based Intrusion Detection System): The script installs the Wazuh Manager, an open-source HIDS. It aids in monitoring, detecting, and responding to security threats on individual hosts. The setup includes the installation of Wazuh Manager version 4.5
 
 ---
-
-Total Wazuh Structure
----
-![Image Description](Images/Screen_shot_from_2026_06_17_21_41_46.png)
----
-
-
-System Requirements
-
-Before running the script, please ensure that your system meets the following requirements:
-
-* Ubuntu OS
-
-* Minimum 4GB of RAM
-
-* Minimum 20GB of free disk space
-
-If your system doesn't meet these requirements, the script will issue a warning and allow you to proceed at your own risk.
 
 ---
 🛠️ Wazuh Setup
