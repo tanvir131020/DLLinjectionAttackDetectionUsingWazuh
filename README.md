@@ -394,6 +394,13 @@ These are the screenshots of suricata
 I placed the location of the hello.txt file in the File Integrity Monitoring Section of ossec.conf in Wazuh Agent(Windows 10)
 ![Image Description](Images/Screenshot_from_2026-06-18_02-10-58.png)
 
+```bash
+<directories whodata="yes" check_all="yes">C:\Inventory\invenTory\tanvir</directories>
+
+<directories whodata="yes" check_all="yes">C:\Users\msi-pc\Desktop\Tanvir\Tanvir\SOC\Analyst</directories>
+```
+
+
 I wrote something in the hello.txt file
 ![Image Description](Images/Screenshot_from_2026-06-18_01-07-34.png)
 
@@ -408,8 +415,6 @@ To check the hash MD5, SHA1, and SHA256
 
 To check the status of the hello.txt file because I modified it
 ![Image Description](Images/Screenshot_from_2026-06-18_01-42-55.png)
-
-
 
 
 To check the MD5 hash of the hello.txt file before & after modification
