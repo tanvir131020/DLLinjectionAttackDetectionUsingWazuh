@@ -53,9 +53,10 @@ The script facilitates the installation of the following SOC components:
 
 ---
 🛠️ Wazuh Setup
----
 
+---
 1️⃣. Wazuh Server Installation Process :
+---
 
 a) At first, I installed Ubuntu 22.04 in VMWare Workstation Pro
 
