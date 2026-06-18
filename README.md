@@ -126,19 +126,27 @@ After setting up the security components, consider following best practices for 
 
 ---
 
+The starting process of the Wazuh server
+
 ![Image Description](Images/Screenshot_from_2026-06-17_22-56-00.png)
+
+Here, I typed the password for my Wazuh server 
 
 ![Image Description](Images/Screenshot_from_2026-06-17_23-09-01.png)
 
 
 ![Image Description](Images/Screenshot_from_2026-06-17_23-09-56.png)
 
+Here, I attempted to install suricata by typing y 
+
 ![Image Description](Images/Screenshot_from_2026-06-17_23-23-33.png)
+
+This is the completeness of installation of Wazuh Server in terminal of Ubuntu 22.04
 
 ![Image Description](Images/Screenshot_from_2026-06-17_23-50-54.png)
 
 
-These are the screenshots of installation of Wazuh setup in Ubuntu 22.04
+These are the screenshots of installation of Wazuh setup 
 
 Then I went to the browser & typed 
 
