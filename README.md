@@ -16,8 +16,11 @@ Total Wazuh Structure
 Before running the script, please ensure that your system meets the following requirements:
 
 Ubuntu OS
+
 Minimum 4GB of RAM
+
 Minimum 20GB of free disk space
+
 If your system doesn't meet these requirements, the script will issue a warning and allow you to proceed at your own risk.
 
 
