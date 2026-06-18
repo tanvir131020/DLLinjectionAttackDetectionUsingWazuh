@@ -254,10 +254,18 @@ Then, I typed the above thing in the Log analysis section of ossec.conf
 
 ```
 ---
-
-4️⃣. Detecting Alerts in network system by Suricata
-
+4️⃣. Detecting Alerts in network system by Suricata:
 ---
+
+a) first 
+
+![Image Description](Images/Screenshot_from_2026-06-18_23-51-22.png)
+
+
+![Image Description](Images/Screenshot_from_2026-06-18_23-52-03.png)
+
+
+![Image Description](Images/Screenshot_from_2026-06-18_23-52-48.png)
 
 
 
