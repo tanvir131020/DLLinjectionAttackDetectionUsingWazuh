@@ -257,7 +257,17 @@ Then, I typed the above thing in the Log analysis section of ossec.conf
 4️⃣. Detecting Alerts in network system by Suricata:
 ---
 
-a) At first,  
+a) At first, I went to the terminal & write it 
+
+```bash
+cd /etc/suricata
+```
+
+then, I checked the suricata.yaml & write the above command in terminal
+
+```bash
+cat suricata.yaml
+```
 
 ![Image Description](Images/Screenshot_from_2026-06-18_23-51-22.png)
 
@@ -270,7 +280,10 @@ cd /var/lib/suricata
 ![Image Description](Images/Screenshot_from_2026-06-18_23-52-03.png)
 
 I type the alert rules by using nano in local.rules
+
 ![Image Description](Images/Screenshot_from_2026-06-18_23-52-48.png)
+
+here, it is the rules in the local.rules
 
 ```bash
 
