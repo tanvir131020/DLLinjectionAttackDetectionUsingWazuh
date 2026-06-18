@@ -149,17 +149,23 @@ you have to do this according to your IP address & port will be 5601
 2️⃣. Wazuh Agent Installation Process :
 ---
 
-a) First I went to the
+a) First I went to the "Deploy new agent" according to the below screenshot 
 
 ![Image Description](Images/Screenshot_from_2026-06-18_22-07-55.png)
 
+b) Then I choose operating system, version, architecture 
+
 ![Image Description](Images/Screenshot_from_2026-06-18_00-52-42.png)
+
+c) In the Wazuh Server address, I typed my IP address of Ubuntu 22.04 , assigned agent name as tanvir13 & select default in group
 
 ![Image Description](Images/Screenshot_from_2026-06-18_00-52-59.png)
 
+d) Here is the command of the Wazuh agent from the Wazuh server. I copied the command 
+
 ![Image Description](Images/Screenshot_from_2026-06-18_00-56-59.png)
 
-b)
+e) In my Windows 10 machine, I opend the powershell as administrator & copied the command that I got from the Wazuh server
 
 ![Image Description](Images/Screenshot_from_2026-06-18_00-58-17.png)
 
