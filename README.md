@@ -496,6 +496,10 @@ I found the rule.id 100200 was triggered in the event
 see the source image, target image, SourceProcessGuid, TargetProcessGuid,
 ![Image Description](Images/Screenshot_from_2026-06-18_14-07-35.png)
 
+I checked the full log 
+![Image Description](Images/photo_2026-06-18_14-16-29.jpg)
 
+& system message
+![Image Description](Images/photo_2026-06-18_14-16-34.jpg)
 
 
