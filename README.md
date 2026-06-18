@@ -57,7 +57,9 @@ The script facilitates the installation of the following SOC components:
 
 1️⃣. Wazuh Server Installation Process :
 
-a)​ First, I went to the GitHub link 
+a) At first, I installed Ubuntu 22.04 in VMWare Workstation Pro
+
+b)​ Then, I went to the GitHub link 
 
 🔗 "https://github.com/samiul008ghub/soc_setup/?tab=readme-ov-file"
 
@@ -65,6 +67,7 @@ followed everything according to the description written in the README section.
 
 ## Usage
 ---
+
 1. Clone this repository to your local machine:
 
 ```bash
@@ -131,7 +134,7 @@ After setting up the security components, consider following best practices for 
 ![Image Description](Images/Screenshot_from_2026-06-17_23-50-54.png)
 
 
-
+These are the screenshots of installation of Wazuh setup in Ubuntu 22.04
 
 
 
