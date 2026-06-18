@@ -251,8 +251,15 @@ Then, I typed the above thing in the Log analysis section of ossec.conf
     <location>Microsoft-Windows-Sysmon/Operational</location>
     <log_format>eventchannel</log_format>
 </localfile>
-
 ```
+
+Then I restart the Wazuh Agent
+
+```bash
+restart wazuh agent
+```
+
+
 ---
 4️⃣. Detecting Alerts in network system by Suricata:
 ---
@@ -293,8 +300,18 @@ alert http $HOME_NET any -> any any (msg:"BANK LAB Test - Possible Data Upload A
 
 ```
 
+d) Then, I checked if there were any error in the rules that I wrote in local.rules
 
+```bash
+suricata -T -c /etc/suricata/suricata.yaml
+```
+e) Then I restart the suricata & check status of it
 
+```bash
+systemctl restart suricata && systemctl status suricata
+```
+
+f) 
 
 
 
