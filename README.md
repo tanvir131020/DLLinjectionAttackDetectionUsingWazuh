@@ -39,13 +39,7 @@ The script facilitates the installation of the following SOC components:
 
 2. NIDS (Network-based Intrusion Detection System): Suricata, a high-performance NIDS, is configured to help protect your network from intrusions and suspicious activities. Note: Suricata will monitor the local interface of the machine where it is installed. To monitor the entire network traffic, it should receive traffic from a TAP device or a SPAN port.
 
-![Image Description](Images/photo_2026-06-18_20-43-19.jpg)
-
-![Image Description](Images/photo_2026-06-18_20-43-21.jpg)
-
-![Image Description](Images/photo_2026-06-18_20-43-23.jpg)
-
-![Image Description](Images/photo_2026-06-18_20-43-25.jpg)
+![Image Description](Images/Screenshot_from_2026-06-19_00-23-45.png)
 
 3. HIDS (Host-based Intrusion Detection System): The script installs the Wazuh Manager, an open-source HIDS. It aids in monitoring, detecting, and responding to security threats on individual hosts. The setup includes the installation of Wazuh Manager version 4.5
 
@@ -142,23 +136,23 @@ Here, I attempted to install suricata by typing y in terminal
 
 ![Image Description](Images/Screenshot_from_2026-06-17_23-23-33.png)
 
-Here,I typed password for kibana, kibana system, elastic, logstash_system, remote_monitoring_system, apm_system, beat_system  
+Here, I typed password for kibana, kibana system, elastic, logstash_system, remote_monitoring_system, apm_system, beat_system  
 
 ![Image Description](Images/Screenshot_from_2026-06-17_23-09-01.png)
 
-This is the completeness of installation of Wazuh Server in terminal of Ubuntu 22.04
+This is the completeness of installation of Wazuh Server in the terminal of Ubuntu 22.04
 
 ![Image Description](Images/Screenshot_from_2026-06-17_23-50-54.png)
 
 
-These are the screenshots of installation of Wazuh setup 
+These are the screenshots of the installation of the Wazuh setup 
 
 Then I went to the browser & typed 
 
 ```bash
 https://192.168.159.153:5601
 ```
-you have to do this according to your IP address & port will be 5601
+You have to do this according to your IP address & port will be 5601
 
 ![Image Description](Images/Screenshot_from_2026-06-18_21-36-37.png)
 
@@ -166,15 +160,15 @@ you have to do this according to your IP address & port will be 5601
 2️⃣. Wazuh Agent Installation Process :
 ---
 
-a) First I went to the "Deploy new agent" according to the below screenshot 
+a) First, I went to the "Deploy new agent" according to the below screenshot 
 
 ![Image Description](Images/Screenshot_from_2026-06-18_22-07-55.png)
 
-b) Then I choose operating system, version, architecture 
+b) Then I choose the operating system, version, and architecture 
 
 ![Image Description](Images/Screenshot_from_2026-06-18_00-52-42.png)
 
-c) In the Wazuh Server address, I typed my IP address of Ubuntu 22.04 , assigned agent name as tanvir13 & select default in group
+c) In the Wazuh Server address, I typed my IP address of Ubuntu 22.04, assigned the agent name as tanvir13, & select default in the group
 
 ![Image Description](Images/Screenshot_from_2026-06-18_00-52-59.png)
 
@@ -182,11 +176,11 @@ d) Here is the command of the Wazuh agent from the Wazuh server. I copied the co
 
 ![Image Description](Images/Screenshot_from_2026-06-18_00-56-59.png)
 
-e) In my Windows 10 machine, I opend the powershell as administrator & copied the command that I got from the Wazuh server
+e) In my Windows 10 machine, I opened the PowerShell as administrator & copied the command that I got from the Wazuh server
 
 ![Image Description](Images/Screenshot_from_2026-06-18_00-58-17.png)
 
-Here I typed the command in powershell that I found in Wazuh server. 
+Here I typed the command in PowerShell that I found on the Wazuh server. 
 
 ```bash
 
@@ -217,7 +211,7 @@ I downloaded the Sysmon from the link & extracted it
 🔗 “https://github.com/olafhartong/sysmon-modular/blob/master/sysmonconfig.xml”
 
 
-Here it is the position of all of the sysmon component in my Windows 10
+Here is the position of all of the Sysmon components in my Windows 10
 
 ![Image Description](Images/Screenshot_from_2026-06-18_00-32-47.png)
 
@@ -234,7 +228,7 @@ Get-Service -Name Sysmon64
 
 ![Image Description](Images/Screenshot_from_2026-06-18_00-32-27.png)
 
-Here,I also checked sysmon in the Event Viwer
+Here, I also checked Sysmon in the Event Viewer
 
 ![Image Description](Images/Screenshot_from_2026-06-18_00-33-50.png)
 
@@ -261,7 +255,7 @@ restart wazuh agent
 
 
 ---
-4️⃣. Detecting Alerts in network system by Suricata:
+4️⃣. Detecting Alerts in the network system by Suricata:
 ---
 
 a) At first, I went to the terminal & write it 
@@ -270,7 +264,7 @@ a) At first, I went to the terminal & write it
 cd /etc/suricata
 ```
 
-Then, I checked the suricata.yaml & write the above command in terminal to see the suricata.rules
+Then, I checked the suricata.yaml & write the above command in the terminal to see the suricata.rules
 
 ```bash
 cat suricata.yaml
@@ -278,7 +272,7 @@ cat suricata.yaml
 
 ![Image Description](Images/Screenshot_from_2026-06-18_23-51-22.png)
 
-b) Here it is the location of suricata rules
+b) Here is the location of suricata rules
 
 ```bash
 cd /var/lib/suricata
@@ -290,7 +284,7 @@ c) I type the alert rules by using nano in local.rules
 
 ![Image Description](Images/Screenshot_from_2026-06-18_23-52-48.png)
 
-here, it is the rules in the local.rules
+Here, it is the rules in the local.rules
 
 ```bash
 
@@ -300,21 +294,31 @@ alert http $HOME_NET any -> any any (msg:"BANK LAB Test - Possible Data Upload A
 
 ```
 
-d) Then, I checked if there were any error in the rules that I wrote in local.rules
+d) Then, I checked if there were any errors in the rules that I wrote locally.rules
 
 ```bash
 suricata -T -c /etc/suricata/suricata.yaml
 ```
-e) Then I restart the suricata & check status of it
+e) Then I restart the suricata & check its status
 
 ```bash
 systemctl restart suricata && systemctl status suricata
 ```
 
-f) 
+f) Then, I typed the above command in the terminal to see by which rules or signature suricata is trying to scan the network
 
+```bash
+grep -A 10 "rule-files" /etc/suricata/suricata.yaml
+```
+---
 
+![Image Description](Images/photo_2026-06-18_20-43-19.jpg)
 
+![Image Description](Images/photo_2026-06-18_20-43-21.jpg)
+
+![Image Description](Images/photo_2026-06-18_20-43-23.jpg)
+
+![Image Description](Images/photo_2026-06-18_20-43-25.jpg)
 
 
 
