@@ -179,6 +179,12 @@ To restart Kibana
 ```bash
 sudo systemctl restart kibana
 ```
+Also, if you want to restart Wazuh-manager
+
+```bash
+systemctl restart wazuh-manager
+```
+
 
 If you want to see the status of Elastic Search, Kibana, Filebeat, and Suricata
 
@@ -206,13 +212,7 @@ To see the status of Kibana
 sudo systemctl status kibana
 ```
 
-To restart Wazuh-manager
-
-```bash
-systemctl restart wazuh-manager
-```
-
-To see the status of wazuh-manager
+Also, if you want to see the status of wazuh-manager
 
 ```bash
 systemctl status wazuh-manager
