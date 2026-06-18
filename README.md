@@ -263,7 +263,7 @@ a) At first, I went to the terminal & write it
 cd /etc/suricata
 ```
 
-then, I checked the suricata.yaml & write the above command in terminal to see the suricata.rules
+Then, I checked the suricata.yaml & write the above command in terminal to see the suricata.rules
 
 ```bash
 cat suricata.yaml
@@ -271,7 +271,7 @@ cat suricata.yaml
 
 ![Image Description](Images/Screenshot_from_2026-06-18_23-51-22.png)
 
-Here it is the location of suricata rules
+b) Here it is the location of suricata rules
 
 ```bash
 cd /var/lib/suricata
@@ -279,7 +279,7 @@ cd /var/lib/suricata
 
 ![Image Description](Images/Screenshot_from_2026-06-18_23-52-03.png)
 
-I type the alert rules by using nano in local.rules
+c) I type the alert rules by using nano in local.rules
 
 ![Image Description](Images/Screenshot_from_2026-06-18_23-52-48.png)
 
