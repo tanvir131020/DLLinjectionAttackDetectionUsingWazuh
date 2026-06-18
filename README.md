@@ -173,6 +173,8 @@ e) In my Windows 10 machine, I opend the powershell as administrator & copied th
 
 ![Image Description](Images/Screenshot_from_2026-06-18_00-58-17.png)
 
+Here I typed the command in powershell that I found in Wazuh server. 
+
 ```bash
 
 Invoke-WebRequest -Uri https://packages.wazuh.com/4.x/windows/wazuh-agent-4.5.4-1.msi -OutFile ${env:tmp}\wazuh-agent.msi; msiexec.exe /i ${env:tmp}\wazuh-agent.msi /q WAZUH_MANAGER='192.168.159.149' WAZUH_REGISTRATION_SERVER='192.168.159.149' WAZUH_AGENT_GROUP='default' WAZUH_AGENT_NAME='tanvir13' 
