@@ -30,7 +30,7 @@ If your system doesn't meet these requirements, the script will issue a warning 
 
 a)​ First, I went to the GitHub link 
 
-"https://github.com/samiul008ghub/soc_setup/?tab=readme-ov-file"
+🔗 "https://github.com/samiul008ghub/soc_setup/?tab=readme-ov-file"
 
 followed everything according to the description written in the README section. 
 
