@@ -205,9 +205,7 @@ Then I check the status of the Wazuh Agent
 Get-Service -Name "Wazuh"
 ```
 ---
-
 3️⃣. Sysmon Installation Process in Windows 10:
-
 ---
 
 I downloaded the Sysmon from the link & extracted it
