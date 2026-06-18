@@ -198,6 +198,40 @@ Then I check the status of the Wazuh Agent
 ```bash
 Get-Service -Name "Wazuh"
 ```
+
+If you need to restart Elastic Search, Kibana, Filebeat, and Suricata
+
+![Image Description](Images/Screenshot_from_2026-06-18_01-01-26.png)
+
+To restart Suricata
+```bash
+sudo systemctl restart suricata
+```
+
+To restart Filebeat
+```bash
+sudo systemctl restart filebeat
+```
+
+To restart ElasticSearch
+```bash
+sudo systemctl restart elasticsearch
+```
+To restart Kibana
+```bash
+sudo systemctl restart kibana
+```
+
+If you want to see the status of Elastic Search, Kibana, Filebeat, and Suricata
+
+![Image Description](Images/Screenshot_from_2026-06-18_01-03-28.png)
+
+
+
+
+
+
+
 ---
 3️⃣. Sysmon Installation Process in Windows 10:
 ---
@@ -252,33 +286,6 @@ Then I restart the Wazuh Agent
 ```bash
 restart wazuh agent
 ```
-
-If you need to restart Elastic Search, Kibana, Filebeat, and Suricata
-
-![Image Description](Images/Screenshot_from_2026-06-18_01-01-26.png)
-
-To restart Suricata
-```bash
-sudo systemctl restart suricata
-```
-
-To restart Filebeat
-```bash
-sudo systemctl restart filebeat
-```
-
-To restart ElasticSearch
-```bash
-sudo systemctl restart elasticsearch
-```
-To restart Kibana
-```bash
-sudo systemctl restart kibana
-```
-
-If you want to see the status of Elastic Search, Kibana, Filebeat, and Suricata
-
-![Image Description](Images/Screenshot_from_2026-06-18_01-03-28.png)
 
 
 ---
