@@ -436,9 +436,15 @@ I went to the above link
 
 🔗"https://wazuh.com/blog/detecting-process-injection-attacks-with-wazuh/"
 
-From here, I downloaded the tools according to the given instructions
+From here, I downloaded the tools according to the given instructions. I downloaded Windows 10 64-bit, version 21H2, with Microsoft Visual C++ installed (vc_redist.x64.exe).
 
 ![Image Description](Images/Screenshot_from_2026-06-19_13-15-14.png)
+
+I checked vc_redist.x64.exe by typing both Windows icons +  R
+```bash
+appwiz.cpl
+```
+If you found it according to the screenshot, then no need to install vc_redist.x64.exe
 
 ![Image Description](Images/Screenshot_from_2026-06-19_13-18-05.png)
 
