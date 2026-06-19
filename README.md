@@ -432,7 +432,7 @@ I turned off the security system of the Wazuh client (Windows 10)
 ![Image Description](Images/Screenshot_from_2026-06-18_13-36-31.png)
 ![Image Description](Images/Screenshot_from_2026-06-18_13-36-41.png)
 
-I went to the above link
+I went to the link below
 
 🔗"https://wazuh.com/blog/detecting-process-injection-attacks-with-wazuh/"
 
@@ -440,7 +440,7 @@ From here, I downloaded the tools according to the given instructions. I downloa
 
 ![Image Description](Images/Screenshot_from_2026-06-19_13-15-14.png)
 
-I checked vc_redist.x64.exe by typing both Windows icons +  R
+I checked vc_redist.x64.exe by typing both Windows Key + R. Then, I typed the command below
 ```bash
 appwiz.cpl
 ```
