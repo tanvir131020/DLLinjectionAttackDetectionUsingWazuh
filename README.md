@@ -561,6 +561,11 @@ This is the position of local_rules.xml
 ![Image Description](Images/Screenshot_from_2026-06-19_20-05-46.png)
 
 I wrote the rules here by using nano
+
+```bash
+nano local_rules.xml
+```
+
 ![Image Description](Images/Screenshot_from_2026-06-19_20-05-23.png)
 
 Then I wrote the rule
