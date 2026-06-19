@@ -524,17 +524,54 @@ I checked the full log
 b) Technique 2:  Process hollowing (process replacement) T1055.012
 ---
 
+I turned off the security system of the Wazuh client (Windows 10) according to the Technique 1
+
+I went to the same website 
+
+🔗"https://wazuh.com/blog/detecting-process-injection-attacks-with-wazuh/"
+
+& followed the instructions of Technique 2
+
+Then I installed WinRAR 
 ![Image Description](Images/Screenshot_from_2026-06-19_13-15-14.png)
 
-
+I installed InjectProc
 ![Image Description](Images/Screenshot_from_2026-06-19_13-14-51.png)
 
 
+When I ran the command
 
+```bash
+InjectProc.exe proc_rpl "C:\Program Files\Google\Chrome\Application\chrome.exe" "C:\Program Files\WinRAR\WinRAR.exe"
+```
+
+This evaluation copy(T1055) of WinRAR has appeared
 ![Image Description](Images/Screenshot_from_2026-06-19_12-50-20.png)
 
 
+I had to go to the terminal of the Wazuh Server(Ubuntu 22.04)
 
+```bash
+cd /var/ossec/etc/rules/local_rules.xml
+```
+Then I wrote the rule
+
+```bash
+
+<group name="windows,sysmon">
+  <rule id="100201" level="12">
+    <if_sid>61600</if_sid>
+    <description>Process injection activity detected: "$(win.eventdata.Image)" has been tampered with</description>
+    <mitre>
+      <id>T1055.012</id>
+    </mitre>
+  </rule>
+</group>
+
+```
+
+
+Then I checked the rule 
 ![Image Description](Images/Screenshot_from_2026-06-19_12-55-17.png)
 
 
