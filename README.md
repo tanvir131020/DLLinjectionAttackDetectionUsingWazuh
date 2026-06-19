@@ -551,7 +551,7 @@ This evaluation copy(T1055) of WinRAR has appeared
 ![Image Description](Images/Screenshot_from_2026-06-19_14-51-59.png)
 
 
-I had to go to the terminal of the Wazuh Server(Ubuntu 22.04)
+I had to go to the position from the terminal of the Wazuh Server(Ubuntu 22.04)
 
 ```bash
 cd /var/ossec/etc/rules/local_rules.xml
