@@ -524,7 +524,7 @@ I checked the full log
 b) Technique 2:  Process hollowing (process replacement) T1055.012
 ---
 
-I turned off the security system of the Wazuh client (Windows 10) according to the Technique 1
+I turned off the security system of the Wazuh client (Windows 10) according to Technique 1
 
 I went to the same website 
 
@@ -546,7 +546,7 @@ InjectProc.exe proc_rpl "C:\Program Files\Google\Chrome\Application\chrome.exe" 
 ```
 
 This evaluation copy(T1055) of WinRAR has appeared
-![Image Description](Images/Screenshot_from_2026-06-19_12-50-20.png)
+![Image Description](Images/Screenshot_from_2026-06-19_14-51-59.png)
 
 
 I had to go to the terminal of the Wazuh Server(Ubuntu 22.04)
