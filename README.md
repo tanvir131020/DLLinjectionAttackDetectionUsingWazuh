@@ -130,7 +130,7 @@ Here, I typed the password for my Wazuh Server
 
 ![Image Description](Images/Screenshot_from_2026-06-17_23-09-01.png)
 
-Time of Processing the Wazuh Server in terminal ......
+Time of Processing the Wazuh Server in the terminal ......
 
 ![Image Description](Images/Screenshot_from_2026-06-17_23-09-56.png)
 
@@ -138,7 +138,7 @@ Here, I attempted to install suricata by typing y in the terminal
 
 ![Image Description](Images/Screenshot_from_2026-06-17_23-23-33.png)
 
-Here, I typed password for kibana, kibana system, elastic, logstash_system, remote_monitoring_system, apm_system, beat_system  
+Here, I typed the password for Kibana, Kibana system, Elastic, logstash_system, remote_monitoring_system, apm_system, beat_system  
 
 ![Image Description](Images/Screenshot_from_2026-06-17_23-09-01.png)
 
