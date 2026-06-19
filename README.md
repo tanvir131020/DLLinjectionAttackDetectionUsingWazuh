@@ -21,6 +21,8 @@ Before running the script, please ensure that your system meets the following re
 
 * Ubuntu OS
 
+* Windows 10
+
 * Minimum 4GB of RAM
 
 * Minimum 20GB of free disk space
