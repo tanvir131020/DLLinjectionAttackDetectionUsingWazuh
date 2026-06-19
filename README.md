@@ -524,6 +524,29 @@ I checked the full log
 b) Technique 2:  Process hollowing (process replacement) T1055.012
 ---
 
+![Image Description](Images/Screenshot_from_2026-06-19_13-15-14.png)
+
+
+![Image Description](Images/Screenshot_from_2026-06-19_13-14-51.png)
+
+
+
+![Image Description](Images/Screenshot_from_2026-06-19_12-50-20.png)
+
+
+
+![Image Description](Images/Screenshot_from_2026-06-19_12-55-17.png)
+
+
+![Image Description](Images/Screenshot_from_2026-06-19_12-56-26.png)
+
+
+
+![Image Description](Images/Screen_shot_from_2026-06-19_12-57-15.png)
+
+
+
+![Image Description](Images/Screenshot_from_2026-06-19_12-55-38.png)
 
 
 
