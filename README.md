@@ -541,7 +541,7 @@ I installed InjectProc
 ![Image Description](Images/Screenshot_from_2026-06-19_13-14-51.png)
 
 
-When I ran the command
+When I ran the command in the location where I downloaded the InjectProc 
 
 ```bash
 InjectProc.exe proc_rpl "C:\Program Files\Google\Chrome\Application\chrome.exe" "C:\Program Files\WinRAR\WinRAR.exe"
