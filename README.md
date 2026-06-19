@@ -438,7 +438,7 @@ I went to the above link
 
 From here, I downloaded the tools according to the given instructions
 
-& Then I wrote the rules at the terminal in the Wazuh Server(Ubuntu 22.04) according to the instruction
+& Then I wrote the rules at the terminal in the Wazuh Server(Ubuntu 22.04) according to the instructions
 
 Here is the position
 ```bash
@@ -464,11 +464,13 @@ Here is the rule that I wrote in the terminal
 </group>
 
 ```
-
+Here is the screenshot
 ![Image Description](Images/Screenshot_from_2026-06-19_02-30-26.png)
 
 
 I installed hello-world-x64.dll & InjectProc.exe in my Wazuh Agent(Windows 10) 
+
+![Image Description](Images/Screenshot_from_2026-06-19_13-16-18.png)
 
 I opened CMD as administrator & went to the specific location where I installed hello-world-x64.dll & InjectProc.exe
 ```bash
