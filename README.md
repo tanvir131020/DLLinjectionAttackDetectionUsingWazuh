@@ -438,6 +438,10 @@ I went to the above link
 
 From here, I downloaded the tools according to the given instructions
 
+![Image Description](Images/Screenshot_from_2026-06-19_13-15-14.png)
+
+![Image Description](Images/Screenshot_from_2026-06-19_13-18-05.png)
+
 & Then I wrote the rules at the terminal in the Wazuh Server(Ubuntu 22.04) according to the instructions
 
 Here is the position
@@ -508,5 +512,12 @@ I checked the full log
 
 & system message
 ![Image Description](Images/photo_2026-06-18_14-16-34.jpg)
+
+
+---
+b) Technique 2:  Process hollowing (process replacement) T1055.012
+---
+
+
 
 
