@@ -507,7 +507,7 @@ I found the rule.id 100200 was triggered in the event
 & Dashboard
 ![Image Description](Images/Screenshot_from_2026-06-18_14-00-45.png)
 
-always see the source image, target image, SourceProcessGuid, TargetProcessGuid,
+always see the source image, target image, SourceProcessGuid, TargetProcessGuid
 ![Image Description](Images/Screenshot_from_2026-06-18_14-07-35.png)
 
 & sysmon eventID, techniqueID & name
@@ -571,18 +571,19 @@ Then I wrote the rule
 ```
 
 
-Then I checked the rule 
+Then I checked the rule ID 100201 in the Dashboard
 ![Image Description](Images/Screenshot_from_2026-06-19_12-55-17.png)
 
 
+& in events 
 ![Image Description](Images/Screenshot_from_2026-06-19_12-56-26.png)
 
 
-
+always see the source image, target image, SourceProcessGuid, TargetProcessGuid 
 ![Image Description](Images/Screen_shot_from_2026-06-19_12-57-15.png)
 
 
-
+& I checked the full log & system message
 ![Image Description](Images/Screenshot_from_2026-06-19_12-55-38.png)
 
 
