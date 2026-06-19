@@ -97,7 +97,7 @@ chmod +x setup_script.sh
 Verify NIDS Logs:
 ---
 
-Check if logs are getting written to the /var/log/suricata/eve.json file. This is essential for monitoring network traffic. Besides, you need to check from kibana if data is being displayed in the Suricata Dashboard.
+Check if logs are getting written to the /var/log/suricata/eve.json file. This is essential for monitoring network traffic. Besides, you need to check from Kibana if data is being displayed in the Suricata Dashboard.
 
 
 ---
@@ -554,8 +554,15 @@ This evaluation copy(T1055) of WinRAR has appeared
 I had to go to the position from the terminal of the Wazuh Server(Ubuntu 22.04)
 
 ```bash
-cd /var/ossec/etc/rules/local_rules.xml
+cd /var/ossec/etc/rules
 ```
+This is the position of local_rules.xml 
+
+![Image Description](Images/Screenshot_from_2026-06-19_20-05-46.png)
+
+I wrote the rules here by using nano
+![Image Description](Images/Screenshot_from_2026-06-19_20-05-23.png)
+
 Then I wrote the rule
 
 ```bash
