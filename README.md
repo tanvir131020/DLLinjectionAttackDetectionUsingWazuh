@@ -485,7 +485,7 @@ InjectProc.exe dll_inj hello-world-x64.dll cmd.exe
 Restart-Service -Name wazuh
 ```
 
-![Image Description](Images/Screenshot_from_2026-06-18_13-55-56.png)
+![Image Description](Images/Screenshot_from_2026-06-19_13-19-18.png)
 
 I found the rule.id 100200 was triggered in the event 
 ![Image Description](Images/Screenshot_from_2026-06-18_14-02-35.png)
